@@ -2653,3 +2653,138 @@
   "threadPriority" : 5,
   "service" : "lab-maven1"
 }
+{
+  "instant" : {
+    "epochSecond" : 1739638032,
+    "nanoOfSecond" : 577762600
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.isi.maven.services.dto.AppRoles>` from Object value (token `JsonToken.START_OBJECT`)]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 31,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739638513,
+    "nanoOfSecond" : 322920500
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.isi.maven.services.dto.AppRoles>` from Object value (token `JsonToken.START_OBJECT`)]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 29,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739638657,
+    "nanoOfSecond" : 39382500
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `com.isi.maven.services.dto.AppRoles` from Array value (token `JsonToken.START_ARRAY`)]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 31,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739638735,
+    "nanoOfSecond" : 673079100
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.isi.maven.services.dto.AppRoles>` from Object value (token `JsonToken.START_OBJECT`)]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739640086,
+    "nanoOfSecond" : 793893500
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m29s506ms35µs500ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739640698,
+    "nanoOfSecond" : 246789500
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<com.isi.maven.services.dto.AppRoles>` from Object value (token `JsonToken.START_OBJECT`)]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739641714,
+    "nanoOfSecond" : 138238200
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739641714,
+    "nanoOfSecond" : 152994600
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739641714,
+    "nanoOfSecond" : 200779700
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
