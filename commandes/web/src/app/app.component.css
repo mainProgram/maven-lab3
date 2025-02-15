@@ -1,0 +1,26 @@
+mat-toolbar {
+  justify-content: space-between;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d36fe7;
+  cursor: pointer;
+}
+
+.active-link {
+  border-bottom: 2px solid #d36fe7;
+}
