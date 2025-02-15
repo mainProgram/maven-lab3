@@ -883,3 +883,1248 @@
   "threadPriority" : 5,
   "service" : "lab-maven1"
 }
+{
+  "instant" : {
+    "epochSecond" : 1739620204,
+    "nanoOfSecond" : 632142200
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739620204,
+    "nanoOfSecond" : 634308300
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739620204,
+    "nanoOfSecond" : 636797100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739620205,
+    "nanoOfSecond" : 522207100
+  },
+  "thread" : "http-nio-8080-exec-2",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.getProduit() with message = Requested Product with id = 4 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 27,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739621175,
+    "nanoOfSecond" : 146350700
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.getProduit() with message = Requested Product with id = 4 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 29,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739625490,
+    "nanoOfSecond" : 765052700
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m2s525ms199µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739625976,
+    "nanoOfSecond" : 60519400
+  },
+  "thread" : "http-nio-8080-exec-8",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.createProduit() with message = Requested User with id = 7 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 33,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739625990,
+    "nanoOfSecond" : 848926500
+  },
+  "thread" : "http-nio-8080-exec-9",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.AppUserController.createAppUser() with message = Requested Roles with id = 9 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 34,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739626784,
+    "nanoOfSecond" : 943979100
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.createProduit() with message = the Product with name = test is already created",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 29,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739628588,
+    "nanoOfSecond" : 507823200
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m36s630ms616µs600ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630471,
+    "nanoOfSecond" : 821689900
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630471,
+    "nanoOfSecond" : 885838600
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630471,
+    "nanoOfSecond" : 930999400
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630497,
+    "nanoOfSecond" : 907203300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "Starting ServicesApplication using Java 17.0.5 with PID 13152 (C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\lab3\\commandes\\services\\target\\classes started by fazeyna in C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\lab3)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630498,
+    "nanoOfSecond" : 170697100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630499,
+    "nanoOfSecond" : 668943200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630499,
+    "nanoOfSecond" : 819768900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 127 ms. Found 3 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630500,
+    "nanoOfSecond" : 846901300
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.config.LoggingAspect",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630501,
+    "nanoOfSecond" : 852702300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630501,
+    "nanoOfSecond" : 884431300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630501,
+    "nanoOfSecond" : 890774400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630501,
+    "nanoOfSecond" : 897447400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.15]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630502,
+    "nanoOfSecond" : 122352300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630502,
+    "nanoOfSecond" : 126352400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3797 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630502,
+    "nanoOfSecond" : 622531000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630502,
+    "nanoOfSecond" : 820728100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.13.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630502,
+    "nanoOfSecond" : 825099200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630503,
+    "nanoOfSecond" : 545511000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630503,
+    "nanoOfSecond" : 613298800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630504,
+    "nanoOfSecond" : 769690600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@146833a2",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630504,
+    "nanoOfSecond" : 773634500
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630504,
+    "nanoOfSecond" : 901558300
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630504,
+    "nanoOfSecond" : 908926900
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630507,
+    "nanoOfSecond" : 367782200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630507,
+    "nanoOfSecond" : 577068100
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630508,
+    "nanoOfSecond" : 104009500
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IAppRolesRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630508,
+    "nanoOfSecond" : 511382900
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IAppUserRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630508,
+    "nanoOfSecond" : 593883700
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IProduitRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630508,
+    "nanoOfSecond" : 700638800
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630509,
+    "nanoOfSecond" : 395323400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630509,
+    "nanoOfSecond" : 453359600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739630509,
+    "nanoOfSecond" : 466162800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "Started ServicesApplication in 12.552 seconds (process running for 15.686)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631617,
+    "nanoOfSecond" : 373936200
+  },
+  "thread" : "HikariPool-1 housekeeper",
+  "level" : "WARN",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m2s382ms346µs300ns).",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 45,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631639,
+    "nanoOfSecond" : 725780100
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 57,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631639,
+    "nanoOfSecond" : 727778300
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 57,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631639,
+    "nanoOfSecond" : 731304900
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 4 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 57,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631649,
+    "nanoOfSecond" : 846113400
+  },
+  "thread" : "http-nio-8080-exec-4",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.createProduit() with message = Requested User with id = 0 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 60,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739631677,
+    "nanoOfSecond" : 596830400
+  },
+  "thread" : "http-nio-8080-exec-6",
+  "level" : "ERROR",
+  "loggerName" : "com.isi.maven.services.config.LoggingAspect",
+  "message" : "Exception in com.isi.maven.services.controller.ProduitController.createProduit() with message = Requested User with id = 0 does not exist",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 62,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739633982,
+    "nanoOfSecond" : 822613500
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739633982,
+    "nanoOfSecond" : 847460700
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739633982,
+    "nanoOfSecond" : 887756100
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 24,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634025,
+    "nanoOfSecond" : 236283300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "Starting ServicesApplication using Java 17.0.5 with PID 14020 (C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\lab3\\commandes\\services\\target\\classes started by fazeyna in C:\\Users\\fazeyna\\Desktop\\COURS_ISI_M2\\JEE\\lab3)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634025,
+    "nanoOfSecond" : 509910800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634026,
+    "nanoOfSecond" : 861251000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634027,
+    "nanoOfSecond" : 9516900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 121 ms. Found 3 JPA repository interfaces.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634028,
+    "nanoOfSecond" : 195892000
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.config.LoggingAspect",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 117726800
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8080 (http)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 138705000
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 143574600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 148728600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/10.1.15]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 353887200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 370888300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3718 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 784612300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.EntityManagerMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 925055400
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 6.2.13.Final",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634029,
+    "nanoOfSecond" : 930116700
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.cfg.Environment",
+  "message" : "HHH000406: Using bytecode reflection optimizer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634030,
+    "nanoOfSecond" : 560905600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo",
+  "message" : "No LoadTimeWeaver setup: ignoring JPA class transformer",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634030,
+    "nanoOfSecond" : 620030600
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634031,
+    "nanoOfSecond" : 512734200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6585df70",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634031,
+    "nanoOfSecond" : 516700200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634031,
+    "nanoOfSecond" : 609246200
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634031,
+    "nanoOfSecond" : 611447400
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.hibernate.orm.deprecation",
+  "message" : "HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.log.DeprecationLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634033,
+    "nanoOfSecond" : 800295200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.hibernate.internal.CoreMessageLogger_$logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634034,
+    "nanoOfSecond" : 50147200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634034,
+    "nanoOfSecond" : 635059000
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IAppRolesRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634034,
+    "nanoOfSecond" : 924423200
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IAppUserRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634035,
+    "nanoOfSecond" : 32075600
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.core.LocalVariableTableParameterNameDiscoverer",
+  "message" : "Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.isi.maven.services.dao.IProduitRepository",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634035,
+    "nanoOfSecond" : 195664500
+  },
+  "thread" : "main",
+  "level" : "WARN",
+  "loggerName" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634035,
+    "nanoOfSecond" : 936173300
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8080\"]",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634035,
+    "nanoOfSecond" : 979259200
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8080 (http) with context path ''",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634035,
+    "nanoOfSecond" : 993780900
+  },
+  "thread" : "main",
+  "level" : "INFO",
+  "loggerName" : "com.isi.maven.services.ServicesApplication",
+  "message" : "Started ServicesApplication in 11.841 seconds (process running for 15.539)",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 1,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634063,
+    "nanoOfSecond" : 760692600
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "java.util.logging.Logger",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634063,
+    "nanoOfSecond" : 763774800
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634063,
+    "nanoOfSecond" : 768707900
+  },
+  "thread" : "http-nio-8080-exec-1",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 3 ms",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 26,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
