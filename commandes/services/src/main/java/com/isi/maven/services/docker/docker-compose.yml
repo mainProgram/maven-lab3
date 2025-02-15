@@ -1,0 +1,33 @@
+services:
+  mysql-labmaven3:
+    image: mysql:8.0
+    container_name: container-labmaven3
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: labmaven3_db
+      MYSQL_USER: user
+      MYSQL_PASSWORD: passer123@
+    ports:
+      - 3307:3306
+    volumes:
+      - mysql_data_labmaven3:/var/lib/mysql
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u $$MYSQL_USER --password=$$MYSQL_PASSWORD
+
+  phpmyadmin-labmaven3:
+    container_name: phpmyadmin-labmaven3
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8084:80
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      PMA_HOST: mysql-labmaven3
+      PMA_USER: user
+      PMA_PASSWORD: passer123@
+    depends_on:
+      - mysql-labmaven3
+    restart: unless-stopped
+
+volumes:
+  mysql_data_labmaven3:
+    driver: local
