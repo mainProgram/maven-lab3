@@ -18,10 +18,6 @@ export class ResourceService<T> {
     this.resources.set(resources);
   };
 
-  protected setResource = (resources: ResourceType<T>) => {
-    this.resources.set([resources]);
-  };
-
   protected upsertResource = (resource: ResourceType<T>) => {
     console.log(this.resources())
     const index = this.resources().findIndex((todo) => todo.id === resource.id);

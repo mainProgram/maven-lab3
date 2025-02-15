@@ -11,8 +11,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
 import {MatOption, MatSelect} from "@angular/material/select";
 import {AppUserService} from "../../../services/app-user.service";
-import {finalize, take} from "rxjs";
-import {LoaderService} from "../../../services/loader.service";
+import {take} from "rxjs";
 import {LoaderComponent} from "../../loader/loader.component";
 
 @Component({
@@ -41,8 +40,6 @@ import {LoaderComponent} from "../../loader/loader.component";
 export class ProduitAddUpdateComponent implements OnInit{
   form!: FormGroup;
   errorMessage: string = "";
-  loaderService = inject(LoaderService);
-  loading = inject(LoaderService).loading;
   isLoading= false
 
   constructor(
@@ -51,10 +48,8 @@ export class ProduitAddUpdateComponent implements OnInit{
     @Inject(MAT_DIALOG_DATA) public data: any,
     private dialogRef: MatDialogRef<ProduitAddUpdateComponent>,
   ) {
-    this.loaderService.showLoader()
     this.userService.fetchAppUsers().pipe(
       take(1),
-      finalize(() => this.loaderService.hideLoader())
     ).subscribe();
   }
 
@@ -62,7 +57,6 @@ export class ProduitAddUpdateComponent implements OnInit{
 
   ngOnInit(): void {
     this.initForm()
-    console.log(this.data)
     if(this.data?.id)
       this.populateForm()
   }

@@ -22,8 +22,7 @@ export class ProduitService extends ResourceService<Produit>{
     return this.http
       .post<Produit>(baseUrl, produit)
       .pipe(
-        map((response) => response as any),
-        tap(this.setResources.bind(this))
+        tap((newProduit) => this.upsertResource(newProduit))
       );
   }
 
@@ -42,8 +41,7 @@ export class ProduitService extends ResourceService<Produit>{
     return this.http
       .put<Produit>(`${baseUrl}/${id}`, produit)
       .pipe(
-        map((response) => response as any),
-        tap(this.setResources.bind(this))
+        tap((newProduit) => this.upsertResource(newProduit)) // Utiliser upsertResource au lieu de setResources
       );
   }
 }
