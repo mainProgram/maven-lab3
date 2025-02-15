@@ -1,1 +1,46 @@
-<p>role-list works!</p>
+<ng-container *ngIf="!loading() && (roles() && roles().length > 0)">
+  <h3 class="my-5 text-center">
+    Liste des rôles
+    <button
+      mat-icon-button
+      matTooltip="Ajouter un rôle"
+      (click)="add()"
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+  </h3>
+
+  <div class="row cards-container px-5">
+    <mat-card *ngFor="let role of roles()" class="role-card mb-3">
+      <mat-card-header>
+        <mat-card-title>
+          {{ role.nom | rolePipe }}
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="d-flex justify-content-end">
+        <div class="d-flex justify-content-between" style="width: 100px">
+          <button
+            mat-icon-button
+            matTooltip="Modifier le rôle"
+            (click)="edit(role)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            matTooltip="Supprimer le rôle"
+            (click)="deleteRole(role.id)"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ng-container>
+
+<div *ngIf="!loading() && (!roles() || roles().length<= 0)" class="text-center">
+  <h1 class="text-danger my-5">La liste des rôles est vide !</h1>
+</div>
+
+<app-loader [loading]="loading()"></app-loader>

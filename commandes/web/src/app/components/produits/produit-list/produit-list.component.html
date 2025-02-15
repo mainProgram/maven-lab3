@@ -42,7 +42,6 @@
 
 <div *ngIf="!loading() && (!produits() || produits().length<= 0)" class="text-center">
   <h1 class="text-danger my-5">La liste des produits est vide !</h1>
-  <button mat-stroked-button color="primary" routerLink="/produits/create" >Ajouter un produit</button>
 </div>
 
 <app-loader [loading]="loading()"></app-loader>

@@ -42,7 +42,6 @@
 
 <div *ngIf="!loading() && (!users() || users().length<= 0)" class="text-center">
   <h1 class="text-danger my-5">La liste des utilisateurs est vide !</h1>
-  <button mat-stroked-button color="primary" routerLink="/users/create" >Ajouter un utilisateur</button>
 </div>
 
 <app-loader [loading]="loading()"></app-loader>
