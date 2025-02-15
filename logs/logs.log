@@ -2128,3 +2128,48 @@
   "threadPriority" : 5,
   "service" : "lab-maven1"
 }
+{
+  "instant" : {
+    "epochSecond" : 1739634414,
+    "nanoOfSecond" : 167314500
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.commons.logging.LogAdapter$Log4jLog",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634414,
+    "nanoOfSecond" : 172627100
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
+{
+  "instant" : {
+    "epochSecond" : 1739634414,
+    "nanoOfSecond" : 218793100
+  },
+  "thread" : "SpringApplicationShutdownHook",
+  "level" : "INFO",
+  "loggerName" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "endOfBatch" : false,
+  "loggerFqcn" : "org.apache.logging.slf4j.Log4jLogger",
+  "threadId" : 17,
+  "threadPriority" : 5,
+  "service" : "lab-maven1"
+}
