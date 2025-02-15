@@ -1,4 +1,4 @@
 export interface AppRoles {
-  id?: string;
+  id?: number;
   nom: string;
 }

@@ -22,8 +22,7 @@ export class AppUserService extends ResourceService<AppUser>{
     return this.http
       .post<AppUser>(baseUrl, appUser)
       .pipe(
-        map((response) => response as any),
-        tap(this.setResources.bind(this))
+        tap((newAppUser) => this.upsertResource(newAppUser))
       );
   }
 
@@ -42,8 +41,7 @@ export class AppUserService extends ResourceService<AppUser>{
     return this.http
       .put<AppUser>(`${baseUrl}/${id}`, appUser)
       .pipe(
-        map((response) => response as any),
-        tap(this.setResources.bind(this))
+        tap((newAppUser) => this.upsertResource(newAppUser))
       );
   }
 }

@@ -1,1 +1,48 @@
-<p>user-list works!</p>
+<ng-container *ngIf="!loading() && (users() && users().length > 0)">
+  <h3 class="my-5 text-center">
+    Liste des utilisateurs
+    <button
+      mat-icon-button
+      matTooltip="Ajouter un utilisateur"
+      (click)="add()"
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+  </h3>
+
+  <div class="row cards-container px-5">
+    <mat-card *ngFor="let user of users()" class="user-card mb-3">
+      <mat-card-header>
+        <mat-card-title>
+          {{ user.prenom }} {{ user.nom }}
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="d-flex justify-content-between">
+        <p>Email: {{ user.email }}</p>
+        <div class="d-flex justify-content-between" style="width: 100px">
+          <button
+            mat-icon-button
+            matTooltip="Modifier l'utilisateur"
+            (click)="edit(user)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            matTooltip="Supprimer l'utilisateur"
+            (click)="deleteAppUser(user.id)"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ng-container>
+
+<div *ngIf="!loading() && (!users() || users().length<= 0)" class="text-center">
+  <h1 class="text-danger my-5">La liste des utilisateurs est vide !</h1>
+  <button mat-stroked-button color="primary" routerLink="/users/create" >Ajouter un utilisateur</button>
+</div>
+
+<app-loader [loading]="loading()"></app-loader>
