@@ -1,1 +1,48 @@
-<p>produit-list works!</p>
+<ng-container *ngIf="!loading() && (produits() && produits().length > 0)">
+  <h3 class="my-5 text-center">
+    Liste des produits
+    <button
+      mat-icon-button
+      matTooltip="Ajouter un produit"
+      (click)="add()"
+    >
+      <mat-icon>add</mat-icon>
+    </button>
+  </h3>
+
+  <div class="row cards-container px-5">
+    <mat-card *ngFor="let produit of produits()" class="produit-card mb-3">
+      <mat-card-header>
+        <mat-card-title>
+          {{ produit.nom }}
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content class="d-flex justify-content-between">
+        <p>Quantité en stock: {{ produit.qtStock }}</p>
+        <div class="d-flex justify-content-between" style="width: 100px">
+          <button
+            mat-icon-button
+            matTooltip="Modifier le produit"
+            (click)="edit(produit)"
+          >
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button
+            mat-icon-button
+            matTooltip="Supprimer le produit"
+            (click)="deleteProduit(produit.id)"
+          >
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ng-container>
+
+<div *ngIf="!loading() && (!produits() || produits().length<= 0)" class="text-center">
+  <h1 class="text-danger my-5">La liste des produits est vide !</h1>
+  <button mat-stroked-button color="primary" routerLink="/produits/create" >Ajouter un produit</button>
+</div>
+
+<app-loader [loading]="loading()"></app-loader>

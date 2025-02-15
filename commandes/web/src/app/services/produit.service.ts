@@ -1,7 +1,6 @@
 import {Injectable} from '@angular/core';
 import {map, tap} from 'rxjs';
 import {ResourceService} from './resource.service';
-import {IApiResponse} from '../models/api-response';
 import {Produit} from "../models/produit.model";
 let baseUrl = "http://localhost:8080/produits"
 
@@ -12,7 +11,7 @@ export class ProduitService extends ResourceService<Produit>{
 
   fetchProduits() {
     return this.http
-      .get<IApiResponse>(baseUrl)
+      .get<Produit[]>(baseUrl)
       .pipe(
         map((response) => response as Produit[]),
         tap(this.setResources.bind(this))
@@ -21,29 +20,29 @@ export class ProduitService extends ResourceService<Produit>{
 
   addProduit(produit: Produit) {
     return this.http
-      .post<IApiResponse>(baseUrl, produit)
+      .post<Produit>(baseUrl, produit)
       .pipe(
-        map((response) => response as Produit[]),
+        map((response) => response as any),
         tap(this.setResources.bind(this))
       );
   }
 
-  getProduit(id: string) {
+  getProduit(id: number) {
     return this.http
-      .get<IApiResponse>(baseUrl+ "/"+ id)
+      .get<Produit>(baseUrl+ "/"+ id)
   }
 
-  deleteProduit(id: string) {
+  deleteProduit(id: number) {
     return this.http
-      .delete<IApiResponse>(`${baseUrl}/${id}`)
+      .delete<Produit>(`${baseUrl}/${id}`)
       .pipe(tap(() => this.removeResource(id)));
   }
 
-  updateProduit(id:string, produit: Produit) {
+  updateProduit(id:number, produit: Produit) {
     return this.http
-      .put<IApiResponse>(`${baseUrl}/${id}`, produit)
+      .put<Produit>(`${baseUrl}/${id}`, produit)
       .pipe(
-        map((response) => response as Produit[]),
+        map((response) => response as any),
         tap(this.setResources.bind(this))
       );
   }

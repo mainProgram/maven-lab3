@@ -28,18 +28,18 @@ export class AppRoleService extends ResourceService<AppRoles>{
       );
   }
 
-  getAppRole(id: string) {
+  getAppRole(id: number) {
     return this.http
       .get<IApiResponse>(baseUrl+ "/"+ id)
   }
 
-  deleteAppRole(id: string) {
+  deleteAppRole(id: number) {
     return this.http
       .delete<IApiResponse>(`${baseUrl}/${id}`)
       .pipe(tap(() => this.removeResource(id)));
   }
 
-  updateAppRole(id:string, appRole: AppRoles) {
+  updateAppRole(id:number, appRole: AppRoles) {
     return this.http
       .put<IApiResponse>(`${baseUrl}/${id}`, appRole)
       .pipe(
