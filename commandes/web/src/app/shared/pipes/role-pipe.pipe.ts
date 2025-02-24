@@ -19,5 +19,8 @@ export class RolePipePipe implements PipeTransform {
     } else if (value == "ROLE_USER") {
       return "Utilisateur"
     }
+    else{
+      return value
+    }
   }
 }

@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {map, tap} from 'rxjs';
 import {ResourceService} from './resource.service';
 import {Produit} from "../models/produit.model";
-let baseUrl = "http://localhost:8080/produits"
+let baseUrl = "http://localhost:8086/produits"
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +13,7 @@ export class ProduitService extends ResourceService<Produit>{
     return this.http
       .get<Produit[]>(baseUrl)
       .pipe(
-        map((response) => response as Produit[]),
+        map((response) => response as Produit[]) ,
         tap(this.setResources.bind(this))
       );
   }

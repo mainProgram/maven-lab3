@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {map, tap} from 'rxjs';
 import {ResourceService} from './resource.service';
 import {AppRoles} from "../models/app-roles.model";
-let baseUrl = "http://localhost:8080/roles"
+let baseUrl = "http://localhost:8086/roles"
 
 @Injectable({
   providedIn: 'root'
